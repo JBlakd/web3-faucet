@@ -1,0 +1,15 @@
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.4.22 <0.9.0;
+
+// Sol ---compile---> ABI (Application Binary Interface) ---migrate---> Blockchain
+
+contract Faucet {
+  // Storage variables (persistent data storage)
+
+  // People can donate to this pool of funds
+  // People can also withdraw from this pool of funds
+  uint public funds = 1000;
+
+  int public counter = -10;
+  uint32 public test = 4294967295;
+}
